@@ -1,0 +1,15 @@
+
+
+	sudo apt install -y php-curl php-zip php-gd php-intl php-intl php-pear php-imagick php-imap php-memcache php-pspell php-tidy php-xmlrpc php-xsl php-mbstring php-ldap php-ldap php-cas php-apcu libapache2-mod-php php-mysql php-bz2
+
+
+	https://glpi-project.org/downloads/
+
+
+	CREATE DATABASE your_database;
+
+
+	CREATE USER your_user@localhost IDENTIFIED BY 'Your_Password';
+
+
+	GRANT ALL ON your_database.* TO your_user@localhost;
